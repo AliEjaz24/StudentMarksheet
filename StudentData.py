@@ -1,5 +1,6 @@
 import numpy as np
 from numpy import random
+import pandas as pd
 
 
 """
@@ -53,8 +54,6 @@ grades= np.where(Percentage >= 90,"A",
                           np.where(Percentage>=70,"C",
                                    np.where(Percentage>=60,"D",
                                             np.where(Percentage>50,"E","F")))))
-
-
 
 
 for x in range(0,7):
